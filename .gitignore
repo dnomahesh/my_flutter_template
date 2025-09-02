@@ -29,10 +29,8 @@ ios/build/
 .vscode/
 
 # IntelliJ related
-*.iml
 *.ipr
 *.iws
-.idea/
 
 # Misc
 .DS_Store
@@ -40,4 +38,17 @@ ios/build/
 generated_plugin_registrant.dart
 
 # Others
-*.lock
+pubspec.lock
+
+# Build output
+/build/
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+
+# Generated plugin files
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android debug keystore
+android/app/debug.keystore
