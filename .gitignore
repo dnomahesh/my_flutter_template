@@ -1,0 +1,43 @@
+# Flutter/Dart/Pub related
+*.lock
+.dart_tool/
+.packages
+.pub/
+build/
+flutter_*.png
+
+# Android related
+android/.gradle/
+android/app/build/
+.android/
+.idea/
+*.iml
+*.hprof
+local.properties
+
+# iOS related
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/build/
+*.xcworkspace
+*.xcuserstate
+
+# VS Code related
+.vscode/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Misc
+.DS_Store
+*.log
+generated_plugin_registrant.dart
+
+# Others
+*.lock
